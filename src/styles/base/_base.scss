@@ -1,0 +1,20 @@
+//contaning the base or the template style
+//rem
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: $background;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+button{
+    cursor:pointer;
+}
+
+button:disabeled {
+cursor: default;
+}

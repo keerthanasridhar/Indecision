@@ -1,0 +1,44 @@
+.big_button {
+    background: $buttonpink;
+    border: none;
+    border-bottom: 0.6rem solid darken($buttonpink,10%);
+    color: white;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $xl-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big_button:disabeled {
+    opacity: 0.5;
+
+}
+
+//Button class for the remove buttons
+
+.small_button {
+background: $buttonpink;
+border:none;
+border-bottom: .3rem solid darken($buttonpink, 10%);
+color: white;
+font-weight: 500;
+padding: $s-size;
+}
+
+
+//bem //Remove All button
+.button--Link {
+   background: none;
+   padding: 0;
+   color: $off-white;
+   border:none;
+   font-size:$s-size;
+}
+
+@media (min-width:$desktopbreakpoint){
+    .big_button{
+        margin-bottom: $m-size;
+    }
+ 
+}
